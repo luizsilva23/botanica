@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root{
+  --color0: #1C261E;
+  --color1: #32402C;
+  --color2: #4B592D;
+  --color3: #7E8C4A;
+  --color4: #808C23;
+  --color5: #40352C;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  background-color: #dce5ba;
+}
+
+header{
+  height: 140px;
+  background-color: #7E8C4A;
+  
+}
+
+header h1{
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Syne Mono', monospace;
+  font-size: 65px;
+  color: #111612
+}
+
+header h2{
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: 'Indie Flower';
+  font-size: 20px;
+  color: #251f1a;
+}
+
+nav{
+  padding: 6px;
+  background-color: #111612;
+}
+
+nav a, footer a{
+  text-decoration: none;
+  font-family: 'Indie Flower';
+  font-weight: bolder;
+  color: #a4b467;
+}
+
+nav form{
+  display: inline-block;
+}
+
+main{
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 7px;
+  box-shadow: 1px 1px 6px rgba(68, 68, 68, 0.521);
+  margin-top: 9px;
+  padding: 10px;
+  background-color: white;
+}
+
+main h3{
+  text-align: center;
+  font-family: 'Syne Mono', monospace;
+  font-size: 30px;
+  color: #251f1a;
+  margin-bottom: 15px;
+}
+
+main aside{
+  text-align: right;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #40352C;
+  margin-bottom: 15px;
+}
+
+main p{
+  text-align: justify;
+  margin-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#caixa div{
+  display: inline-block;
+  border: 1px solid black;
+  margin-top: 30px;
+  padding: 10px 0px 0px 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  opacity: 60%;
+}
+
+#caixa div:hover{
+  transition: 0.3s;
+  opacity: 100%;
+}
+
+.c1{
+  background-color: #111612;
+  margin-left: 10px;
+}
+
+.c2{
+  background-color: #1C261E;
+}
+
+.c3
+{
+  background-color: #32402C;
+}
+
+.c4{
+  background-color: #4B592D;
+}
+
+footer{
+  border: 1px solid black;
+  margin-top: 33px;
+  padding: 10px;
+  height: 40px;
+  background-color: #111612;
+}
+
+footer p{
+  text-align: center;
+  color: white;
+}
