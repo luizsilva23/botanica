@@ -24,6 +24,7 @@
 
 body{
   background-color: #dce5ba;
+  font-size: 100%;
 }
 
 header{
@@ -36,7 +37,7 @@ header h1{
   padding-top: 10px;
   text-align: center;
   font-family: 'Syne Mono', monospace;
-  font-size: 65px;
+  font-size: 60px;
   color: #111612
 }
 
@@ -44,7 +45,7 @@ header h2{
   padding-bottom: 10px;
   text-align: center;
   font-family: 'Indie Flower';
-  font-size: 20px;
+  font-size: 25px;
   color: #251f1a;
 }
 
@@ -78,7 +79,7 @@ main{
 main h3{
   text-align: center;
   font-family: 'Syne Mono', monospace;
-  font-size: 30px;
+  font-size: 1.9em;
   color: #251f1a;
   margin-bottom: 15px;
 }
@@ -151,7 +152,7 @@ section#caixa{
 
 #direito h4{
   font-family: 'Indie Flower';
-  font-size: 25px;
+  font-size: 1.56em;
 }
 
 
